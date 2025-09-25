@@ -3,7 +3,7 @@ type BMIResultProps = {
   category: string | null;
 };
 
-export default function BMIForm({ bmi, category }: BMIResultProps) {
+export default function BMIResult({ bmi, category }: BMIResultProps) {
   if (bmi === null) return null;
 
   return (
